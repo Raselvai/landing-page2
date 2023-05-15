@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="app, landing, corporate, Creative, Html Template, Template">
+    <meta name="author" content="web-themes">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- title -->
+    <title>Landing page</title>
+
+    <!-- favicon -->
+    <!-- <link href="img/favicon.png" type="image/png" rel="icon"> -->
+
+    <!-- all css here -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+
+    <!-- start header -->
+    <header>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <a class="logo" href="#">
+                        <img class="img-fluid" src="img/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-9 d-flex align-items-center justify-content-end">
+                    <ul id="menu">
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Use Cases</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+
+                    <a class="get-btn" href="#">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- start end -->
+
+    <!-- home start -->
+    <div class="home-wrapper position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="home-box text-center">
+                        <h2>Don't just grow.<br>Outgrow yourself.</h2>
+                        <p>re:cap maes advanced financing available for your business<br>step up your game with on demand, non dilutive capital.</p>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <a class="get-btn" href="#">Get started</a>
+                            <a class="get-btn" href="#">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- home end -->
+    
+    <!-- all js here -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        
+        // Hamburger-menu
+        $('.hamburger-menu, #menu li a').on('click', function () {
+            $('.hamburger-menu .line-top').toggleClass('current');
+            $('.hamburger-menu .line-center').toggleClass('current');
+            $('.hamburger-menu .line-bottom').toggleClass('current');
+            $('#menu').toggleClass('open');
+        });
+
+    </script>
+</body>
+</html>
